@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pauline Aframa | Becoming POA</title>
-    <!-- Fonts for the calligraphy and clean tech feel -->
+    <title>Pauline Aframa | Junior Data Analyst</title>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -18,7 +17,6 @@
         body, html {
             margin: 0;
             padding: 0;
-            height: 100%;
             font-family: 'Montserrat', sans-serif;
             background: linear-gradient(135deg, var(--warm-cream), var(--soft-beige), var(--copper-terracotta));
             background-attachment: fixed;
@@ -26,7 +24,6 @@
             line-height: 1.6;
         }
 
-        /* Subtle tech background overlay */
         .tech-overlay {
             position: fixed;
             top: 0;
@@ -34,107 +31,47 @@
             width: 100%;
             height: 100%;
             z-index: -1;
-            opacity: 0.08;
+            opacity: 0.1;
             background-image: radial-gradient(var(--muted-gold) 1px, transparent 1px);
-            background-size: 60px 60px;
+            background-size: 50px;
         }
 
-        header {
-            text-align: center;
-            padding: 100px 20px 40px;
-        }
+        header { text-align: center; padding: 80px 20px 40px; }
 
-        .becoming-label {
-            text-transform: uppercase;
-            letter-spacing: 4px;
-            font-size: 0.85rem;
-            color: var(--text-dark);
-            margin-bottom: 5px;
-        }
+        h1 { font-family: 'Playfair Display', serif; font-size: 4rem; color: var(--text-dark); margin: 0; }
+        .sub-heading { font-size: 1.2rem; color: var(--muted-gold); font-style: italic; margin-top: 10px; }
 
-        h1 {
-            font-family: 'Playfair Display', serif;
-            font-style: italic;
-            font-size: 5rem;
-            color: var(--muted-gold);
-            margin: 0;
-        }
-
-        .full-name {
-            font-size: 1.2rem;
-            letter-spacing: 2px;
-            color: var(--copper-terracotta);
-            margin-top: 10px;
-            font-weight: 600;
-        }
-
-        .tagline {
-            font-size: 1.1rem;
-            margin-top: 15px;
-            font-style: italic;
-        }
-
-        .container {
-            max-width: 700px;
-            margin: 0 auto;
-            padding: 0 40px 60px;
-        }
-
-        section {
-            margin-bottom: 50px;
-        }
-
-        h2 {
-            font-family: 'Playfair Display', serif;
-            color: var(--muted-gold);
-            border-bottom: 1px solid var(--copper-terracotta);
-            display: inline-block;
-            padding-bottom: 5px;
-        }
-
-        .contact-link {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 10px 25px;
-            background-color: var(--copper-terracotta);
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: opacity 0.3s;
-        }
-
-        .contact-link:hover {
-            opacity: 0.8;
-        }
+        .container { max-width: 700px; margin: 0 auto; padding: 0 40px 60px; }
+        section { margin-bottom: 40px; }
+        h2 { font-family: 'Playfair Display', serif; color: var(--copper-terracotta); border-bottom: 1px solid var(--muted-gold); display: inline-block; }
+        
+        .contact-box { background: rgba(255, 255, 255, 0.3); padding: 25px; border-radius: 10px; text-align: center; }
+        .contact-info { margin: 15px 0; font-size: 1.1rem; }
     </style>
 </head>
 <body>
-
     <div class="tech-overlay"></div>
-
     <header>
-        <div class="becoming-label">Becoming</div>
-        <h1>POA</h1>
-        <div class="full-name">Pauline Aframa</div>
-        <p class="tagline">Navigating life, tech, and faith—one day at a time.</p>
+        <h1>Pauline Ohema Aframa</h1>
+        <div class="sub-heading">Becoming POA</div>
     </header>
 
     <main class="container">
         <section>
             <h2>About</h2>
-            <p>I am a Junior Data Analyst passionate about uncovering the stories hidden within numbers. My journey is driven by a curiosity for how technology can better serve our communities and simplify complex problems.</p>
-            
-            <p>Currently, I am sharpening my technical skills through the <strong>Generation UK Data Analytics Pre-Apprenticeship programme</strong>. This intensive experience is preparing me to bridge the gap between raw data and actionable insights.</p>
-            
-            <p>I am actively seeking data analysis apprenticeship opportunities where I can contribute, learn, and grow. If you are looking for a dedicated analyst who values both precision and human-centric design, I would love to connect.</p>
+            <p>I am a junior data analyst with experience gained through completing a Data Analytics pre-apprenticeship with Generation UK. I bring practical experience from fast-paced retail, hospitality, and administrative roles, where strong attention to detail, organisation, and clear communication were essential.</p>
+            <p>I am confident working with high volumes of information, maintaining accuracy, and meeting deadlines under pressure. Through my training, I have developed analytical thinking and a foundation in data tools and techniques.</p>
+            <p>I am particularly interested in using data to support better decision-making and am currently seeking data analysis apprenticeship opportunities to continue developing my skills while contributing to a team.</p>
         </section>
 
-        <section>
-            <h2>Let's Connect</h2>
-            <p>Ready to discuss data, technology, or opportunities? Reach out via the links below.</p>
-            <a href="mailto:your-email@example.com" class="contact-link">Get in Touch</a>
+        <section class="contact-box">
+            <h2>Contact</h2>
+            <p>Open to opportunities. Let's connect:</p>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:paulineaframa7@gmail.com">paulineaframa7@gmail.com</a></p>
+                <p>Phone: <a href="tel:+447471866369">+44 7471 866369</a></p>
+            </div>
         </section>
     </main>
-
 </body>
 </html>
