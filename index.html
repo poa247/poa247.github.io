@@ -3,90 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pauline Ohema Aframa | Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <title>Pauline Ohema Aframa | Junior Data Analyst</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
             --warm-cream: #FDF6EE;
             --soft-beige: #EADBC8;
             --copper: #C98A6D;
-            --gold: #B8860B;
+            --muted-gold: #B8860B;
             --text: #4A443E;
         }
 
-        body { margin: 0; font-family: 'Montserrat', sans-serif; background: var(--warm-cream); color: var(--text); line-height: 1.6; }
-        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
-        
-        /* Hero */
-        header { text-align: center; padding: 80px 20px; }
-        h1 { font-family: 'Playfair Display', serif; font-size: 3.5rem; color: var(--text); margin: 0; }
-        .tagline { color: var(--copper); font-size: 1.2rem; font-weight: 600; letter-spacing: 2px; }
+        body, html { margin: 0; padding: 0; font-family: 'Montserrat', sans-serif; background: linear-gradient(135deg, var(--warm-cream), var(--soft-beige), var(--copper)); background-attachment: fixed; color: var(--text); line-height: 1.6; }
 
-        /* Sections */
-        section { margin-bottom: 80px; }
-        h2 { font-family: 'Playfair Display', serif; color: var(--gold); border-bottom: 2px solid var(--copper); display: inline-block; }
+        .tech-bg { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; opacity: 0.15; background-image: radial-gradient(var(--muted-gold) 1px, transparent 1px); background-size: 60px 60px; }
 
-        /* Project Grid */
+        .container { max-width: 900px; margin: 0 auto; padding: 60px 20px; }
+        header { text-align: center; padding: 40px 20px; }
+        .becoming-label { text-transform: uppercase; letter-spacing: 5px; font-size: 0.9rem; }
+        h1 { font-family: 'Playfair Display', serif; font-style: italic; font-size: 4.5rem; color: var(--muted-gold); margin: 0; }
+        .full-name { font-size: 1.5rem; font-weight: 600; color: var(--text); margin-top: 10px; }
+
+        section { margin-bottom: 60px; }
+        h2 { font-family: 'Playfair Display', serif; color: var(--muted-gold); border-bottom: 1px solid var(--copper); display: inline-block; }
+
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
-        .card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: center; }
-        .card-img { height: 150px; background: var(--soft-beige); border-radius: 8px; margin-bottom: 15px; display: flex; align-items: center; justify-content: center; }
+        .card { background: rgba(255, 255, 255, 0.4); padding: 25px; border-radius: 15px; text-align: center; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        .btn { display: inline-block; background: var(--muted-gold); color: white; padding: 12px 25px; border-radius: 8px; text-decoration: none; transition: 0.3s; margin-top: 15px; }
         
-        /* Buttons */
-        .btn { display: inline-block; background: var(--gold); color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-top: 10px; transition: 0.3s; }
-        .btn:hover { opacity: 0.9; }
-
-        .cta-box { background: var(--soft-beige); padding: 40px; border-radius: 15px; text-align: center; }
+        .cta-box { background: rgba(255, 255, 255, 0.5); padding: 40px; border-radius: 20px; text-align: center; }
+        .skills-tag { display: inline-block; background: var(--copper); color: white; padding: 5px 12px; border-radius: 20px; margin: 5px; font-size: 0.9rem; }
     </style>
 </head>
 <body>
 
+    <div class="tech-bg"></div>
+
     <header>
-        <h1>Pauline Ohema Aframa</h1>
-        <p class="tagline">Junior Data Analyst | Podcast Creator</p>
+        <div class="becoming-label">Becoming</div>
+        <h1>POA</h1>
+        <div class="full-name">Pauline Ohema Aframa</div>
+        <p>Junior Data Analyst | Podcast Creator</p>
     </header>
 
     <main class="container">
-        <!-- About -->
         <section>
             <h2>About Me</h2>
-            <p>I’m a Junior Data Analyst who loves finding the story behind the data. Whether I’m digging into datasets or hosting my podcast, <strong>Becoming POA</strong>, I’m always exploring how tech, faith, and life intersect.</p>
-            <p>I am currently sharpening my analytical skills through the Generation UK Data Analytics pre-apprenticeship programme. My background across retail, hospitality, and administrative roles has taught me how to stay organized, communicate clearly, and maintain high standards.</p>
+            <p>I am a Junior Data Analyst with a passion for transforming raw numbers into meaningful stories. My journey into tech is fueled by curiosity—I love discovering how data can solve real-world problems and support smarter decision-making.</p>
+            <p>Through my podcast, <em>Becoming POA</em>, I explore the intersections of life, faith, and technology, documenting my own transition into this field. Whether I am analyzing datasets or recording an episode, my focus remains on clear communication and authentic connection.</p>
+            <p>My technical foundation is growing rapidly, with beginner-level proficiency in <strong>SQL, Python, Excel, and Power BI</strong>. I bring these skills together with a strong background in retail, hospitality, and administration, where I learned to stay organized, meet tight deadlines, and remain accurate under pressure—skills I am now eager to apply as a Junior Data Analyst.</p>
         </section>
 
-        <!-- Projects -->
         <section>
             <h2>My Projects</h2>
             <div class="grid">
-                <!-- Card 1 -->
-                <div class="card">
-                    <div class="card-img">Coming Soon</div>
-                    <h3>Project Title</h3>
-                    <p>What I Solved: A brief description of the data challenge.</p>
-                    <a href="#" class="btn">View on GitHub</a>
-                </div>
-                <!-- Card 2 -->
-                <div class="card">
-                    <div class="card-img">Coming Soon</div>
-                    <h3>Project Title</h3>
-                    <p>What I Solved: A brief description of the data challenge.</p>
-                    <a href="#" class="btn">View on GitHub</a>
-                </div>
-                <!-- Add more cards as needed -->
+                <div class="card"><h3>Coming Soon</h3><p>Coming Soon</p><a href="#" class="btn">View on GitHub</a></div>
+                <div class="card"><h3>Coming Soon</h3><p>Coming Soon</p><a href="#" class="btn">View on GitHub</a></div>
             </div>
         </section>
 
-        <!-- Journey -->
-        <section>
-            <h2>The Becoming POA Journey</h2>
-            <p>My podcast is a space for navigating life, technology, and faith. It's where I document my transition into the tech industry.</p>
-            <a href="#" class="btn" style="background: var(--copper);">Listen to Becoming POA</a>
-        </section>
-
-        <!-- CTA -->
         <section class="cta-box">
             <h2>Ready to Collaborate?</h2>
-            <p>I am currently looking for Data Analysis Apprenticeship opportunities.</p>
-            <p><strong>Contact:</strong> <a href="mailto:paulineaframa7@gmail.com">paulineaframa7@gmail.com</a> | +44 7471 866369</p>
+            <p>I am actively seeking Data Analysis Apprenticeship opportunities where I can contribute to a team and continue growing my technical skillset.</p>
+            <div style="margin-top: 15px;">
+                <span class="skills-tag">SQL</span> <span class="skills-tag">Python</span> <span class="skills-tag">Excel</span> <span class="skills-tag">Power BI</span>
+            </div>
+            <p style="margin-top: 20px;"><strong>Email:</strong> <a href="mailto:paulineaframa7@gmail.com">paulineaframa7@gmail.com</a> | <strong>Phone:</strong> +44 7471 866369</p>
+            <br>
+            <a href="#" class="btn" style="background: var(--copper);">Listen to Becoming POA</a>
         </section>
     </main>
 
